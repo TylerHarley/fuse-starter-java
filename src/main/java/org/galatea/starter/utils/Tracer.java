@@ -21,7 +21,13 @@ import java.util.concurrent.Callable;
 @Slf4j
 @ToString
 @EqualsAndHashCode
-// TODO: What's the point of this class? Why's it exist? How's it work its mojo?
+/**
+ * Provides the base functionality for tracing information.
+ * Methods for accessing and modifying the tracer are provided.
+ * 
+ * @author rbasu
+ *
+ */
 public class Tracer {
 
   public static final String TRACE_START_TIME_UTC = "trace-start-UTC";
